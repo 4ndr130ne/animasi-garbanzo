@@ -1,0 +1,10 @@
+@import '../../css/variables';
+
+.header {
+  background: $daisy-eclipse;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  padding: 16px 0;
+  z-index: 1;
+}
