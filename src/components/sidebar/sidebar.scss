@@ -1,0 +1,126 @@
+@import '../../css/variables';
+
+$sidebar-desktop-width: 220px;
+$sidebar-tablet-width: 160px;
+
+.sidebar {
+  display: none;
+
+  @media (min-width: $tablet-breakpoint) {
+    display: block;
+    flex: 0 0 $sidebar-tablet-width;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    display: block;
+    flex: 0 0 $sidebar-desktop-width;
+  }
+}
+
+.sidebar__wrapper {
+  background-color: $daisy-snow;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  display: flex;
+  flex: 1;
+  position: fixed;
+}
+
+.sidebar__body {
+  padding: 24px 48px 24px 0;
+  flex: 1;
+
+  @media (min-width: $tablet-breakpoint) {
+    width: $sidebar-tablet-width;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    width: $sidebar-desktop-width;
+  }
+}
+
+.sidebar__section {
+  margin-bottom: 32px;
+}
+
+.sidebar__items,
+.sidebar__sub-items {
+  margin: 0;
+  padding: 0;
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}
+
+.sidebar__sub-items {
+  font-size: 14px;
+  padding-left: 24px;
+}
+
+.sidebar__item {
+  list-style: none;
+  line-height: 24px;
+  padding: 0;
+  margin: 4px 0;
+  word-break: break-word;
+}
+
+.right_sidebar__link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.sidebar__link {
+  text-decoration: none;
+  color: $daisy-eclipse;
+
+  &:hover {
+    color: $daisy-blue;
+  }
+
+  &--active {
+    color: $daisy-blue;
+    position: relative;
+
+    &::before {
+      content: "";
+      background: #2d68f4;
+      left: -12px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      height: 19px;
+      display: block;
+      position: absolute;
+
+      .sidebar__sub-items & {
+        height: 17px;
+      }
+    }
+  }
+
+  &--disabled {
+    opacity: 0.15;
+    cursor: not-allowed;
+  }
+}
+
+.sidebar__title {
+  font-size: 14px;
+  color: $daisy-nobel;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: color .15s ease-in-out;
+
+  &--active,
+  &:hover {
+    color: $daisy-eclipse;
+  }
+}
