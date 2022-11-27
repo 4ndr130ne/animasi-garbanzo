@@ -1,0 +1,11 @@
+@import '../../css/variables';
+
+.article-select {
+  background: $daisy-white;
+  border-radius: 4px;
+  margin-bottom: 24px;
+
+  @media (min-width: $tablet-breakpoint) {
+    display: none;
+  }
+}
