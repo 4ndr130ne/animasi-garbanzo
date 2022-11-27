@@ -1,0 +1,17 @@
+@import '../../css/variables';
+
+.footer {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__inner {
+  border-top: 1px solid $daisy-whisper;
+  padding: 16px 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: $daisy-nobel;
+}
