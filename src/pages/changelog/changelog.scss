@@ -1,0 +1,20 @@
+@import '../../css/variables';
+
+.changelog {
+  h4 {
+    margin-bottom: 0;
+  }
+}
+
+.changelog__wrapper {
+  border-top: 1px solid $daisy-whisper;
+  padding-top: 24px;
+}
+
+.changelog__anchor {
+  position: relative;
+  top: -18px;
+  left: 0;
+  height: 1px;
+  width: 1px;
+}
