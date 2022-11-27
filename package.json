@@ -1,0 +1,56 @@
+{
+  "name": "docs.hackerone.com",
+  "description": "HackerOne Platform Documentation",
+  "version": "1.0.0",
+  "author": "HackerOne <support@hackerone.com>",
+  "dependencies": {
+    "@reach/router": "^1.1.1",
+    "gatsby": "^2.13.73",
+    "gatsby-cli": "^2.7.34",
+    "gatsby-link": "^2.2.6",
+    "gatsby-plugin-algolia-docsearch": "^1.0.5",
+    "gatsby-plugin-csp": "^1.1.3",
+    "gatsby-plugin-google-analytics": "^2.1.8",
+    "gatsby-plugin-layout": "^1.1.4",
+    "gatsby-plugin-react-helmet": "^3.1.4",
+    "gatsby-plugin-sass": "^2.1.10",
+    "gatsby-plugin-sharp": "^2.2.13",
+    "gatsby-plugin-sitemap": "^2.2.7",
+    "gatsby-plugin-sri": "^1.0.11",
+    "gatsby-remark-autolink-headers": "^2.1.5",
+    "gatsby-remark-images": "^3.1.13",
+    "gatsby-source-filesystem": "^2.1.11",
+    "gatsby-transformer-remark": "^2.6.15",
+    "gatsby-transformer-sharp": "^2.2.7",
+    "node-sass": "4.12.0",
+    "react": "^16.4.2",
+    "react-helmet": "^5.2.1",
+    "webpack": "^4.0.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "classnames": "^2.2.6",
+    "eslint": "^6.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.15.1",
+    "gh-pages": "^2.1.1",
+    "is_js": "^0.9.0",
+    "prettier": "^1.18.2",
+    "react-dom": "^16.4.2",
+    "slugify": "^1.3.4"
+  }
+}
