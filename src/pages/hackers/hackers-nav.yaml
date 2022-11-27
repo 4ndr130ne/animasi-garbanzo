@@ -1,0 +1,70 @@
+- title: Getting Started
+  items:
+    - title: Welcome
+      path: /hackers.html
+    - title: Edit the Doc Site
+      path: /hackers/edit-the-doc-site.html
+    - title: Hacker Start-Up Guide
+      path: /hackers/hacker-start-up-guide.html
+    - title: Private vs Public Programs
+      path: /hackers/private-vs-public-programs.html
+- title: Your Account
+  items:
+    - title: Reputation
+      path: /hackers/reputation.html
+      items:
+        - title: Signal and Impact
+          path: /hackers/signal-and-impact.html
+    - title: Payments
+      path: /hackers/payments.html
+      items:
+        - title: Payout Methods
+          path: /hackers/payout-methods.html
+        - title: Payments FAQs
+          path: /hackers/payments-faqs.html
+    - title: Manage Notifications
+      path: /hackers/manage-notifications.html
+- title: Hacking
+  items:
+    - title: Hacktivity
+      path: /hackers/hacktivity.html
+    - title: Directory
+      path: /hackers/directory.html
+    - title: Hacker101
+      path: /hackers/hacker101.html
+    - title: 90 Day Leaderboard
+      path: /hackers/90-day-leaderboard.html
+    - title: Examples of Misconduct
+      path: /hackers/examples-of-misconduct.html
+    - title: Hacker Mediation
+      path: /hackers/hacker-mediation.html
+    - title: Disclosure Assistance
+      path: /hackers/disclosure-assistance.html
+- title: Programs
+  items:
+    - title: Invitations
+      path: /hackers/invitations.html
+    - title: Decline Invites and Leave Programs
+      path: /hackers/decline-invites-and-leave-programs.html
+    - title: Invitations Priority Queue
+      path: /hackers/invitations-priority-queue.html
+- title: Reports
+  items:
+    - title: Submitting Reports
+      path: /hackers/submitting-reports.html
+    - title: Report Actions
+      path: /hackers/report-actions.html
+    - title: Report States
+      path: /hackers/report-states.html
+    - title: Quality Reports
+      path: /hackers/quality-reports.html
+    - title: Using Markdown
+      path: /hackers/using-markdown.html
+    - title: Weakness
+      path: /hackers/weakness.html
+    - title: Severity
+      path: /hackers/severity.html
+    - title: Public Disclosure
+      path: /hackers/public-disclosure.html
+    - title: Keyboard Shortcuts
+      path: /hackers/keyboard-shortcuts.html
