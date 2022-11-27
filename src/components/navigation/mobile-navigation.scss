@@ -1,0 +1,75 @@
+@import '../../css/variables';
+
+.mobile-navigation__logo {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  height: 28px;
+  width: auto;
+}
+
+.mobile-navigation__item {
+  margin: 0;
+  list-style: none;
+}
+
+.mobile-navigation__separator {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 24px 0;
+}
+
+.mobile-navigation__link {
+  display: block;
+  color: $daisy-white;
+  text-decoration: none;
+  margin: 0 -20px;
+  padding: 10px 20px 10px 17px;
+  border-left: 3px solid transparent;
+
+  &:hover {
+    text-decoration: none;
+    color: $daisy-pink;
+  }
+
+  &--active {
+    background-color: $daisy-zambezi;
+    border-left-color: $daisy-pink;
+
+    &:hover {
+      color: $daisy-white;
+    }
+  }
+}
+
+.mobile-navigation__wrapper {
+  &--active {
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: $daisy-eclipse;
+    padding: 16px 20px;
+  }
+
+  @media (min-width: $desktop-breakpoint + 1) {
+    display: none;
+  }
+}
+
+.mobile-navigation__list {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-navigation__menu {
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  cursor: pointer;
+}
