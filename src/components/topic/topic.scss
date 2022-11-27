@@ -1,0 +1,53 @@
+@import '../../css/variables';
+
+.topics {
+  display: block;
+
+  @media (min-width: $mobile-breakpoint) {
+    display: flex;
+  }
+}
+
+.topic {
+  background: $daisy-white;
+  border: 1px solid $daisy-whisper;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(201, 201, 201, .33);
+  transition: box-shadow .25s ease-in-out, border-color .25s ease-in-out;
+  color: $daisy-zambezi;
+  text-decoration: none;
+  display: block;
+  flex: 1;
+  display: block;
+
+  @media (min-width: $tablet-breakpoint) {
+    display: flex;
+  }
+
+  &__image {
+    margin-right: 24px;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    margin: 8px 0 16px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.topic + .topic {
+  margin-top: 40px;
+
+  @media (min-width: 640px) {
+    margin: 0 0 0 40px;
+  }
+}
+
+.topic:hover {
+  border-color: #d3d9e8;
+  box-shadow: 0 2px 4px rgba(211, 217, 232, .66);
+}
