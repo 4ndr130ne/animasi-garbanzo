@@ -2,24 +2,24 @@
 # yarn lockfile v1
 
 
-"@algolia/autocomplete-core@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.7.1.tgz#025538b8a9564a9f3dd5bcf8a236d6951c76c7d1"
-  integrity sha512-eiZw+fxMzNQn01S8dA/hcCpoWCOCwcIIEUtHHdzN5TGB3IpzLbuhqFeTfh2OUhhgkE8Uo17+wH+QJ/wYyQmmzg==
+"@algolia/autocomplete-core@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.7.4.tgz#85ff36b2673654a393c8c505345eaedd6eaa4f70"
+  integrity sha512-daoLpQ3ps/VTMRZDEBfU8ixXd+amZcNJ4QSP3IERGyzqnL5Ch8uSRFt/4G8pUvW9c3o6GA4vtVv4I4lmnkdXyg==
   dependencies:
-    "@algolia/autocomplete-shared" "1.7.1"
+    "@algolia/autocomplete-shared" "1.7.4"
 
-"@algolia/autocomplete-preset-algolia@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.7.1.tgz#7dadc5607097766478014ae2e9e1c9c4b3f957c8"
-  integrity sha512-pJwmIxeJCymU1M6cGujnaIYcY3QPOVYZOXhFkWVM7IxKzy272BwCvMFMyc5NpG/QmiObBxjo7myd060OeTNJXg==
+"@algolia/autocomplete-preset-algolia@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.7.4.tgz#610ee1d887962f230b987cba2fd6556478000bc3"
+  integrity sha512-s37hrvLEIfcmKY8VU9LsAXgm2yfmkdHT3DnA3SgHaY93yjZ2qL57wzb5QweVkYuEBZkT2PIREvRoLXC2sxTbpQ==
   dependencies:
-    "@algolia/autocomplete-shared" "1.7.1"
+    "@algolia/autocomplete-shared" "1.7.4"
 
-"@algolia/autocomplete-shared@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.7.1.tgz#95c3a0b4b78858fed730cf9c755b7d1cd0c82c74"
-  integrity sha512-eTmGVqY3GeyBTT8IWiB2K5EuURAqhnumfktAEoHxfDY2o7vg2rSnO16ZtIG0fMgt3py28Vwgq42/bVEuaQV7pg==
+"@algolia/autocomplete-shared@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.7.4.tgz#78aea1140a50c4d193e1f06a13b7f12c5e2cbeea"
+  integrity sha512-2VGCk7I9tA9Ge73Km99+Qg87w0wzW4tgUruvWAn/gfey1ZXgmxZtyIRBebk35R1O8TbK77wujVtCnpsGpRy1kg==
 
 "@algolia/cache-browser-local-storage@4.14.2":
   version "4.14.2"
@@ -1444,27 +1444,27 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@docsearch/css@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.2.2.tgz#859572757de61037b2da5ec408f521451ac59e45"
-  integrity sha512-VB0Evx4ikS1ZlW1YVUw+vI9b3H/UXMCo4W/ZWy+n56Sho4KOqyCHcINVays91TJt7HTV/CKO3FCbm2VJg5Wipw==
+"@docsearch/css@3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.3.2.tgz#2c49995e6fbc7834c75f317b277ed6e4019223a4"
+  integrity sha512-dctFYiwbvDZkksMlsmc7pj6W6By/EjnVXJq5TEPd05MwQe+dcdHJgaIn1c8wfsucxHpIsdrUcgSkACHCq6aIhw==
 
 "@docsearch/js@3":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@docsearch/js/-/js-3.2.2.tgz#38c26f780351a819cf8bd3e3e7ea6c00c4e9de1e"
-  integrity sha512-YQQFsrKdvLjI9yvDBh7EuxnrLDElY5SofK1pvyHPvnGE5iB75uIXHC7w7I2zUL5Kj5Crv2L7jVq5j1TwX6Ho5A==
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@docsearch/js/-/js-3.3.2.tgz#fd7d5dfdd79abfe2bc8011b119215e0b08e33138"
+  integrity sha512-k2yiB9attFvKoiYswrRtKhIO+qHuzAj1FHYfFWrKz3wSzB2G6s/7EZL9Rf6iytUo1Ok00LUj2C6mWoOnsUTkxg==
   dependencies:
-    "@docsearch/react" "3.2.2"
+    "@docsearch/react" "3.3.2"
     preact "^10.0.0"
 
-"@docsearch/react@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@docsearch/react/-/react-3.2.2.tgz#c892ab208031d1631e09ba0e6e43c22b7a058cf2"
-  integrity sha512-1Hn2SNQUFVPrzqvaj+vxXZfsfn3rnW8CoyGAJ1LqXMY9py8GbxK8VfmJ5Z6z4LwG9849tGru/N6dp0cQO6r9Ag==
+"@docsearch/react@3.3.2":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@docsearch/react/-/react-3.3.2.tgz#252b659c66682f24902bf6db257f63ee73ffe8fa"
+  integrity sha512-ugILab2TYKSh6IEHf6Z9xZbOovsYbsdfo60PBj+Bw+oMJ1MHJ7pBt1TTcmPki1hSgg8mysgKy2hDiVdPm7XWSQ==
   dependencies:
-    "@algolia/autocomplete-core" "1.7.1"
-    "@algolia/autocomplete-preset-algolia" "1.7.1"
-    "@docsearch/css" "3.2.2"
+    "@algolia/autocomplete-core" "1.7.4"
+    "@algolia/autocomplete-preset-algolia" "1.7.4"
+    "@docsearch/css" "3.3.2"
     algoliasearch "^4.0.0"
 
 "@endemolshinegroup/cosmiconfig-typescript-loader@3.0.2":
